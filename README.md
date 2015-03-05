@@ -24,6 +24,8 @@ These are based on the icon branch.
 
 1. Add a reset button, that resets the count to 0.
 
+2. Persist the value of count, so that if the app is hard-restarted the previous value of count stays.
+
 2. Separate the controller out into the file js/app.js. (This just reverses the onepage.)
 
 3. Style the textbox to have the number right-justified and larger.
