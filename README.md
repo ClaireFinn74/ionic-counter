@@ -38,6 +38,20 @@ These are based on the icon branch.
 
 ## Notes
 
+### To get your own copy of this project
+You can easily get your own copy of this project in GitHub by clicking the Fork button on the project page.
+This will copy all the files into your own repository of the same name (the username in front of the repository name will change to your own one.)
+You can then get a copy of those files down to your own laptop of virtual machine by doing the following:
+
+1. Look for the SSH clone URL on the GitHub page for *your* fork of the project, and click the copy button beside it.
+
+2. At the command line, change to the directory you want to contain the app.
+
+3. Type `git clone <url>`, where `<url>` is the URL from step 1.
+
+From then on: you can use `git checkout <branch>` to checkout the various branches (replace `<branch>` with the branch name); you can use `git checkout -b <newbranch>` to create your own new branch (repace `<newbranch>` with the branch name);
+you can send your changes up to GitHub using `git push`; and you can get new changes down from GitHub (changes made on another machine, maybe) using `git pull`.
+
 ### To update your fork
 From time to time I'll change some of the code in my repository, and those changes won't automatically be applied to your fork.
 Here's how to sync your fork to get my new changes.
