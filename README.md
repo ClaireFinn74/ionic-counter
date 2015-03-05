@@ -35,3 +35,19 @@ These are based on the icon branch.
 6. Persist the value of count, so that if the app is hard-restarted the previous value of count stays.
 
 7. Separate the controller out into the file js/app.js. (This just reverses the onepage.)
+
+## Notes
+
+### To update your fork
+From time to time I'll change some of the code in my repository, and those changes won't automatically be applied to your fork.
+Here's how to sync your fork to get my new changes.
+Run these commands from your local reposity (in your virtual machine using Putty or on your own laptop at the command line).
+
+```bash
+$ git fetch upstream
+$ git checkout master
+$ git merge upstream/master
+$ git push origin master
+```
+
+Usually all I'll change is the README.md file.
