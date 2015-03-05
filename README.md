@@ -24,14 +24,14 @@ These are based on the icon branch.
 
 1. Add a reset button, that resets the count to 0.
 
-2. Persist the value of count, so that if the app is hard-restarted the previous value of count stays.
+2. Style the textbox to have the number right-justified and larger.
 
-3. Separate the controller out into the file js/app.js. (This just reverses the onepage.)
+3. Add icons to the Count and Reset buttons.
 
-4. Style the textbox to have the number right-justified and larger.
+4. Put the Reset button beside the Count button.
 
-5. Add icons to the Count and Reset buttons.
+5. Make the reset button smaller than the Count button.
 
-6. Put the Reset button beside the Count button.
+6. Persist the value of count, so that if the app is hard-restarted the previous value of count stays.
 
-7. Make the reset button smaller than the Count button.
+7. Separate the controller out into the file js/app.js. (This just reverses the onepage.)
