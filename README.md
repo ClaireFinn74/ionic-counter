@@ -65,3 +65,9 @@ $ git push origin master
 ```
 
 Usually all I'll change is the README.md file.
+
+### Access denied and SSH keys
+The usual way to access GitHub from the command line is by using SSH keys.
+You create a unique key on the command line, tell GitHub about it, and from then on you shouldn't need your GitHub username and password each time you run a git push or pull.
+If you get an error trying to clone a project, it's probably because the SSH key isn't set right.
+See here on how to fix it: [GitHub Help: Generating SSH keys](https://help.github.com/articles/generating-ssh-keys/).
